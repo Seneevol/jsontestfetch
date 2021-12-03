@@ -92,7 +92,7 @@ function allCards(poke) {
     titleCard.setAttribute('class', 'card-title')
 
     const p = document.createElement('p')
-    p.innerText = `Pokemon n°${poke.id} de type`
+    p.innerText = `Pokemon n°${poke.id}`
     p.setAttribute('class', 'card-text')
 
     const a = document.createElement('a')
